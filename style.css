@@ -1,5 +1,5 @@
   body {
-        height: 100vh;
+        height: 120vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -163,7 +163,7 @@
         background-color: aqua;
         box-shadow: 5px 0px 20px 0px rgb(238, 240, 243);
         position: relative;
-        left: 100px;
+        left: 110px;
         
       }
        #containear:hover {
