@@ -1,0 +1,194 @@
+  body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to bottom, #00c6ff, #0072ff);
+        font-family: Arial, sans-serif;
+      }
+   #titlecontainear{
+    
+         width:700px ;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+         text-align: center;
+         position: relative;
+         text-shadow: 0px 0px 20px rgb(255, 0, 0);
+        
+   }
+      #containear {
+        min-height: 730px;
+        height: auto;
+        width: 600px;
+        border: 2px solid white;
+        background-color: white;
+        border-radius: 20px;
+        background-color: aqua;
+        box-shadow: 5px 0px 20px 0px rgb(238, 240, 243);
+      }
+         #containear:hover {
+        min-height: 740px;
+        height: auto;
+        width: 602px;
+        border: 2px solid white;
+        background-color: white;
+        border-radius: 20px;
+        background-color: aqua;
+        box-shadow: 5px 0px 20px 0px rgb(16, 17, 18);
+      
+      
+       
+      }
+
+      #searchContainear {
+        /* position: relative;
+        top: 20px;
+        left: 10px; */
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+      }
+
+      #watherDataConatinear {
+        position: relative;
+        top: 30px;
+        left: 100px;
+        min-height: 300px;
+        height: auto;
+        width: 400px;
+        /* border: 2px solid; */
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: 0px 10px 10px 0px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        background-color: #e0f7fa;
+      }
+
+      #watherDataConatinear2 {
+        position: relative;
+        top: 65px;
+        min-height: 250px;
+        height: auto;
+        width: 600px;
+        /* border: 2px solid; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .wetherdatabox {
+        height: 100px;
+        width: 280px;
+        display: flex;
+        /* border: 2px solid rgb(192, 182, 182); */
+        margin: 0px 5px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        box-shadow: 0px 10px 10px 0px;
+        background-color: #e0f7fa;
+      }
+
+      #imgs {
+        margin: -20px;
+        text-shadow: 0px 10px 20px black;
+      }
+
+      .imgBox {
+        height: 90px;
+        width: 80px;
+        /* border: 2px solid; */
+      }
+
+      .moreWeatherData {
+        height: 90px;
+        width: 100px;
+        /* border: 2px solid; */
+        position: relative;
+        left: 10px;
+      }
+
+      pre {
+        font-family: Arial, sans-serif;
+      }
+      #searchicon{
+     height: 20px;
+     width: 20px;
+     border: 2px  black;
+     position: relative;
+     top: 5px;
+     left: 35px;
+    
+      }
+      #searchBar {
+        height: 29px;
+        font-family: Arial, sans-serif;
+         font-size: medium;
+        width: 200px;
+        border-radius: 5px;
+        text-align: center;
+      
+      }
+
+      #searchBtn {
+        height: 25px;
+        font-family: Arial, sans-serif;
+        /* background-color: black; */
+        border-radius: 5px;
+        border: none;
+        background-color: transparent;
+      }
+
+      @media (max-width:500px) {
+        body{
+        height: 180vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+        background: linear-gradient(to bottom, #00c6ff, #0072ff); 
+        font-family: Arial, sans-serif;
+        }
+        #containear {
+        min-height: 750px;
+        height: auto;
+        width: 600px;
+        border: 2px solid white;
+       
+        border-radius: 20px;
+        background-color: aqua;
+        box-shadow: 5px 0px 20px 0px rgb(238, 240, 243);
+        position: relative;
+        left: 100px;
+        
+      }
+       #containear:hover {
+        min-height: 740px;
+        height: auto;
+        width: 602px;
+        border: 2px solid white;
+        background-color: white;
+        border-radius: 20px;
+        background-color: aqua;
+        box-shadow: 5px 0px 20px 0px rgb(16, 17, 18);
+      
+      
+       
+      }
+      #titlecontainear{
+    
+         width:500px ;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+         text-align: center;
+         position: relative;
+        left: 25%;
+        color: rgb(31, 33, 34);
+        text-shadow:0px 0px 20px white ;
+   }
+      }

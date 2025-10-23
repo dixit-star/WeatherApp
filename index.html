@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div id="titlecontainear"><h1>“Weather App – Real-Time Forecast”</h1></div>
+  <br>
+    <div id="containear">
+      <div id="searchContainear">
+        <button id="searchBtn">
+          <div  id="searchicon" >
+            <img
+              height="20px"
+              src="https://www.freeiconspng.com/uploads/search-icon-png-21.png"
+              alt=""
+            />
+          </div>
+        </button>
+        <input placeholder="Search your city" type="search" id="searchBar" />
+      </div>
+      <div id="watherDataConatinear">
+        <h2 id="locations"></h2>
+        <h4 id="datetime"></h4>
+        <h3 id="condition"></h3>
+        <p id="imgs"></p>
+
+        <h1 id="temprature"></h1>
+        <pre id="minMaxTem"></pre>
+      </div>
+      <div id="watherDataConatinear2">
+        <div class="wetherdatabox">
+          <div class="imgBox">
+            <img
+              style="margin: 27px 20px"
+              height="45px"
+              src="https://tse1.mm.bing.net/th/id/OIP.A1BOIn7Opb7wmd6hBlOhlQHaLz?pid=Api&P=0&h=180"
+              alt=""
+            />
+          </div>
+          <div
+            style="margin-top: 5px"
+            id="feelslike"
+            class="moreWeatherData"
+          ></div>
+        </div>
+        <div class="wetherdatabox">
+          <div class="imgBox">
+            <img
+              style="margin: 27px 20px"
+              height="50px"
+              src="https://clipart-library.com/images_k/wind-clipart-transparent/wind-clipart-transparent-13.png"
+              alt=""
+            />
+          </div>
+          <div style="margin-top: 10px" id="wind" class="moreWeatherData"></div>
+        </div>
+        <div class="wetherdatabox">
+          <div class="imgBox">
+            <img
+              style="margin: 27px 20px"
+              height="45px"
+              src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3231113/humidity-icon-md.png"
+              alt=""
+            />
+          </div>
+          <div
+            style="margin-top: 6px"
+            id="humidity"
+            class="moreWeatherData"
+          ></div>
+        </div>
+        <div class="wetherdatabox">
+          <div class="imgBox">
+            <img
+              style="margin: 27px 20px"
+              height="50px"
+              src="https://icon-library.com/images/pressure-icon-png/pressure-icon-png-18.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            style="margin-top: 10px"
+            id="presure"
+            class="moreWeatherData"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <h3 style="color: red" id="errorMsg"></h3>
+    <script src="script.js">
+      
+    </script>
+  </body>
+</html>
