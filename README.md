@@ -50,7 +50,5 @@ This project focuses on **API integration**, **asynchronous JavaScript**, and **
 - **JavaScript (ES6)** – API calls, logic, and DOM manipulation  
 - **Weather API** – For real-time weather data  
 
----
 
-## 📂 Project Structure
 
